@@ -1,7 +1,9 @@
 # Cypher direction validation competition entry
 This repo holds my entry for [Tomaz Bratanic's competition](https://github.com/tomasonjo/cypher-direction-competition) on validating relationship directions in Cypher queries.  
 
-The code is structured to be imported and used as a single function that takes properly formatted Cypher query text and schema text as inputs and returns a corrected query or an empty string if a relationship does not fit the schema.  The current version does not attempt to correct any other formatting mistakes or parse otherwise incorrectly formatted Cypher queries, since these are not requirements of the competition rules.  These features could be added in the future, however.
+The code is structured to be imported and used as a single function that takes properly formatted Cypher query text and schema text as inputs and returns a corrected query or an empty string if a relationship does not fit the schema.  
+
+The current version does not attempt to correct any other formatting mistakes or parse otherwise incorrectly formatted Cypher queries, since these are not requirements of the competition rules.  These features could be added in the future, however.
 
 # Usage
 
